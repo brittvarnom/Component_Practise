@@ -6,22 +6,26 @@
               android:layout_height="match_parent">
 
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/toolbar_edit_text"
+        android:layout_width="match_parent"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
         android:layout_height="wrap_content"
         android:inputType="text"
         android:layout_marginTop="15dp">
-        <requestFocus />
     </EditText>
 
     <SeekBar
+        android:id="@+id/toolbar_seekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"/>
 
 
     <Button
+        android:id="@+id/toolbar_button"
         android:layout_width="wrap_content"
-        android:text="Change Text"
+        android:text="@string/toolbar_button_text"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"/>
 
