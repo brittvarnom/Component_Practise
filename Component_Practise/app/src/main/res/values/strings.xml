@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Fragments</string>
-    <string name="toolbar_button_text">Change Text</string>
+    <string name="toolbar_button_text">Fragment 1 text</string>
+    <string name="text_label">Fragment 2 text</string>
 </resources>
