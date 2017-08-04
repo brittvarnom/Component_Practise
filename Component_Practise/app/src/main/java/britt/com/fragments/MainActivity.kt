@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         val toolbarFragment = ToolbarFragment()
 
-        supportFragmentManager.beginTransaction().replace(R.id.toolbar_fragment_container, toolbarFragment).commit()
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.toolbar_fragment_container, toolbarFragment)
+            .commit()
     }
 }
