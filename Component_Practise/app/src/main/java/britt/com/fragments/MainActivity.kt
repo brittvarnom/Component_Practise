@@ -7,12 +7,20 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.toolbar_fragment_container)
+        setContentView(R.layout.fragment_holder)
 
         val toolbarFragment = ToolbarFragment()
+        val textFragment = TextFragment()
+        val imageFragment = ImageFragment()
 
         supportFragmentManager.beginTransaction()
             .replace(R.id.toolbar_fragment_container, toolbarFragment)
+            .commit()
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.text_fragment_container, textFragment)
+            .commit()
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.image_fragment_container, imageFragment)
             .commit()
     }
 }
