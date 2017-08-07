@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NotificationsTargetActivity"
+            android:label="@string/title_activity_notifications_target"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".NotificationTargetActivity">
+        </activity>
     </application>
 
 </manifest>
