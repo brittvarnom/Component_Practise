@@ -23,6 +23,8 @@
         </activity>
         <activity android:name=".NotificationTargetActivity">
         </activity>
+        <activity android:name=".NotificationSecondTargetActivity">
+        </activity>
     </application>
 
 </manifest>
