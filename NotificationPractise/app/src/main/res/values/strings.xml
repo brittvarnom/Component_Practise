@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Notifications</string>
     <string name="receive_notification">Receive Notification</string>
+    <string name="title_activity_notifications_target">NotificationsTargetActivity</string>
+    <string name="notification_target_text">This page should only be accessible after tapping a notification.</string>
+    <string name="receive_another">Receive another?</string>
+    <string name="second_notification_target_text">This page should be accessed by tapping a notification then tapping on another notification from there.</string>
+    <string name="have_a_fragment">Have a fragment.</string>
 </resources>
