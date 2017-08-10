@@ -16,14 +16,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun manageNavBar() {
-        var timesTappedNotifications = 0
-        var timesTappedHome = 0
-        var timesTappedAbout = 0
-        bottom_nav.menu.add(0, 0, timesTappedNotifications, "Notifications")
+        bottom_nav.menu.add(0, 0, 0, "Notifications")
             .setIcon(R.drawable.ic_second)
-        bottom_nav.menu.add(0, 0, timesTappedHome, "Home")
+        bottom_nav.menu.add(0, 0, 0, "Home")
             .setIcon(R.drawable.ic_main)
-        bottom_nav.menu.add(0, 0, timesTappedAbout, "About")
+        bottom_nav.menu.add(0, 0, 0, "About")
             .setIcon(R.drawable.ic_third)
     }
 }
