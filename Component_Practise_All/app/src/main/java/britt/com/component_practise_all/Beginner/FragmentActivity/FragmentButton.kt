@@ -24,5 +24,3 @@ class FragmentButton: Fragment() {
         }
     }
 }
-
-

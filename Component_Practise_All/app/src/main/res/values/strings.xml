@@ -21,7 +21,7 @@
     <string name="description_fragments">Create two custom Fragments and attach them both to a single activity.</string>
     <string name="description_user_prompts">Use a variety of Snackbars, Toasts and Dialogs to display information to the user.</string>
     <string name="description_notifications">Allow a user to click a button to launch a notification. When the Notification is clicked launch a different Activity.</string>
-    <string name="description_view_class">Attach a view to an already inflated layout. You may create the view (e.g. a TextView) and then atach it to the Activity layout on button click.</string>
+    <string name="description_view_class">Attach a view to an already inflated layout. You may create the view (e.g. a TextView) and then attach it to the Activity layout on button click.</string>
 
     <string name="title_fragment_custom_dialog">Example Dialog</string>
 
@@ -43,5 +43,7 @@
     <string name="button_user_prompts_dialog">Show dialog</string>
     <string name="button_user_prompts_alert_dialog">Show alert dialog</string>
     <string name="button_notifications_send">Send Notification</string>
+    <string name="button_view_class_attach">Attach View</string>
+    <string name="fragment_view_class_description">This is a fragment!</string>
 
 </resources>

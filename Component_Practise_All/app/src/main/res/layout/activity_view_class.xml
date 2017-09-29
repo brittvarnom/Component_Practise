@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="8dp"
     android:orientation="vertical"
-    tools:context="britt.com.component_practise_all.Beginner.ViewClassActivity">
+    tools:context="britt.com.component_practise_all.Beginner.ViewClassActivity.ViewClassActivity">
 
     <TextView
         style="@style/Base.TextAppearance.AppCompat.Large"
@@ -21,5 +20,18 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="@string/description_view_class"/>
+
+    <Button
+        android:id="@+id/btn_view_class_attach_view"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_view_class_attach"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_view_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"/>
 
 </LinearLayout>

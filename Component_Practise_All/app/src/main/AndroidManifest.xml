@@ -30,7 +30,7 @@
         </activity>
         <activity android:name=".Beginner.NotificationsActivity">
         </activity>
-        <activity android:name=".Beginner.ViewClassActivity">
+        <activity android:name=".Beginner.ViewClassActivity.ViewClassActivity">
         </activity>
     </application>
 
