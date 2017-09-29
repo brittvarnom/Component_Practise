@@ -10,6 +10,7 @@ import android.view.MenuItem
 import britt.com.component_practise_all.Beginner.*
 import britt.com.component_practise_all.Beginner.ActivityTask.FirstActivity
 import britt.com.component_practise_all.Beginner.FragmentActivity.FragmentActivity
+import britt.com.component_practise_all.Beginner.UserPromptsActivity.UserPromptsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.nav_drawer_app_bar_main.*
 

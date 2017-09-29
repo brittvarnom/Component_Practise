@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_margin="8dp"
     android:orientation="vertical"
-    tools:context="britt.com.component_practise_all.Beginner.UserPromptsActivity">
+    tools:context="britt.com.component_practise_all.Beginner.UserPromptsActivity.UserPromptsActivity">
 
     <TextView
         style="@style/Base.TextAppearance.AppCompat.Large"
@@ -49,6 +49,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/button_user_prompts_dialog"/>
+
+        <Button
+            android:id="@+id/btn_user_prompts_alert_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_user_prompts_alert_dialog"/>
     </LinearLayout>
 
 </LinearLayout>
