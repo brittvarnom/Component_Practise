@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Beginner">
+        <menu>
+            <item
+                android:id="@+id/logging"
+                android:icon="@drawable/ic_logging"
+                android:title="Logging"/>
+            <item
+                android:id="@+id/activities"
+                android:icon="@drawable/ic_activity"
+                android:title="Activity"/>
+            <item
+                android:id="@+id/fragments"
+                android:icon="@drawable/ic_fragment"
+                android:title="Fragment"/>
+            <item
+                android:id="@+id/user_prompts"
+                android:icon="@drawable/ic_user_prompts"
+                android:title="User Prompts"/>
+            <item
+                android:id="@+id/notifications"
+                android:icon="@drawable/ic_notifications"
+                android:title="Notifications"/>
+            <item
+                android:id="@+id/view_class"
+                android:icon="@drawable/ic_views"
+                android:title="Views(Android View Class)"/>
+        </menu>
+    </item>
+    <item android:title="Intermediate">
+        <menu>
+            <item
+                android:id="@+id/intent_service"
+                android:icon="@drawable/ic_intent_service"
+                android:title="Service / Intent Service"/>
+            <item
+                android:id="@+id/broadcast_recievers"
+                android:icon="@drawable/ic_broadcast_recievers"
+                android:title="Broadcast Receivers"/>
+            <item
+                android:id="@+id/recycler_view"
+                android:icon="@drawable/ic_recycler_view"
+                android:title="RecyclerView"/>
+            <item
+                android:id="@+id/http_networking"
+                android:icon="@drawable/ic_http_networking"
+                android:title="HTTP / Networking"/>
+            <item
+                android:id="@+id/shared_preferences"
+                android:icon="@drawable/ic_shared_preferences"
+                android:title="Shared Preferences"/>
+            <item
+                android:id="@+id/web_view"
+                android:icon="@drawable/ic_webview"
+                android:title="WebView"/>
+            <item
+                android:id="@+id/toolbar"
+                android:icon="@drawable/ic_toolbar"
+                android:title="Toolbar"/>
+            <item
+                android:id="@+id/menu"
+                android:icon="@drawable/ic_menu"
+                android:title="Menu"/>
+            <item
+                android:id="@+id/sharing"
+                android:icon="@drawable/ic_sharing"
+                android:title="Sharing"/>
+        </menu>
+    </item>
+
+    <item android:title="Advanced">
+        <menu>
+            <item
+                android:id="@+id/mvp"
+                android:icon="@drawable/ic_mvp"
+                android:title="MVP"/>
+            <item
+                android:id="@+id/custom_views"
+                android:icon="@drawable/ic_custom_views"
+                android:title="Custom Views"/>
+            <item
+                android:id="@+id/sqllite"
+                android:icon="@drawable/ic_sqlite"
+                android:title="SQLite"/>
+            <item
+                android:id="@+id/fragment_communication"
+                android:icon="@drawable/ic_fragment_communication"
+                android:title="Fragment Communication"/>
+            <item
+                android:id="@+id/advanced_recyclerview"
+                android:icon="@drawable/ic_advanced_recyclerview"
+                android:title="Advanced RecyclerView"/>
+            <item
+                android:id="@+id/bottom_bar_nav"
+                android:icon="@drawable/ic_bottom_nav"
+                android:title="Botttom Bar Navigation"/>
+        </menu>
+    </item>
+</menu>
