@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Working With Android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_home">Working With Android</string>
+    <string name="title_logging">Logging</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_fragments">Fragments</string>
+    <string name="title_user_prompts">User Prompts</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_view_class">Views(Android View Class)</string>
+
+    <string name="description_home">This is a sample app created with the intention of learning how to build various features of Android. Each feature built can be found in the navigation drawer to the left.</string>
+    <string name="description_logging">Use the Log class to log different types of information based on severity - e.g. error, debug, warnings</string>
+    <string name="description_activity">Create an Activity and open another Activity from button click.</string>
+    <string name="description_activity_redirect">This is another activity. This should be accessed by button click within the activity example.</string>
+    <string name="description_fragments">Create two custom Fragments and attach them both to a single activity.</string>
+    <string name="description_user_prompts">Use a variety of Snackbars, Toasts and Dialogs to display information to the user.</string>
+    <string name="description_notifications">Allow a user to click a button to launch a notification. When the Notification is clicked launch a different Activity.</string>
+    <string name="description_view_class">Attach a view to an already inflated layout. You may create the view (e.g. a TextView) and then attach it to the Activity layout on button click.</string>
+
+    <string name="title_fragment_custom_dialog">Example Dialog</string>
+
+    <string name="description_fragment_one">This is a fragment.</string>
+    <string name="description_fragment_two">This is another fragment.</string>
+    <string name="description_fragment_custom">This dialog was created with a custom view, inflating an XML file. Tap off the dialog to dismiss.</string>
+    <string name="description_fragment_custom_dialog_alert">This message was set in a custom dialog class, extending DialogFragment.</string>
+
+    <string name="button_fragment_two">Back to home</string>
+    <string name="button_fragment_custom_dialog">OK</string>
+    <string name="button_fragment_custom_dialog_cancel">Cancel</string>
+
+    <string name="button_logging_error">Log error message</string>
+    <string name="button_logging_debug">Log debug message</string>
+    <string name="button_logging_warning">Log warning message</string>
+    <string name="button_activity">Go to other activity</string>
+    <string name="button_user_prompts_snackbar">Show snackbar</string>
+    <string name="button_user_prompts_toast">Show toast</string>
+    <string name="button_user_prompts_dialog">Show dialog</string>
+    <string name="button_user_prompts_alert_dialog">Show alert dialog</string>
+    <string name="button_notifications_send">Send Notification</string>
+    <string name="button_view_class_attach">Attach View</string>
+    <string name="fragment_view_class_description">This is a fragment!</string>
+
+</resources>
